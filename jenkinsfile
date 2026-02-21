@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('clone') {
       steps {
-        git branch:'main', url: 'https://github.com/sowjanya-it/Jenkinsjavaparam.git’;
+        git branch:'main', url: 'https://github.com/rishithamatam1/Calculatorr.git’;
       }
     }
     stage('compile') {
